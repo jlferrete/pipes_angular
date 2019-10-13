@@ -87,6 +87,21 @@
                 <td>async</td>
                 <td>{{ valorDePromesa | async }}</td>
             </tr>
+            <tr>
+                <td>{{ fecha }}</td>
+                <td>date</td>
+                <td>{{ fecha | date }}</td>
+            </tr>
+            <tr>
+                <td>{{ fecha }}</td>
+                <td>date:'medium'</td>
+                <td>{{ fecha | date: "medium" }}</td>
+            </tr>
+            <tr>
+                <td>{{ fecha }}</td>
+                <td>date:'MMMM - dd'</td>
+                <td>{{ fecha | date: "MMMM - dd" }}</td>
+            </tr>
         </tbody>
     </table>
 
